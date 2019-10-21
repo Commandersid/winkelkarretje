@@ -1,0 +1,15 @@
+table{
+    width: 70%;
+    border-style: solid;
+}
+th{
+    background-color: #cccccc;
+}
+td{
+    width: 25%;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    background-color: bisque;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managecart</title>
+    <script src="shoppingcart.js"></script>
+    <script src="cookiefuncties.js"></script>
+    <link rel="stylesheet" type="text/css" href="managecart.css">
+</head>
+<body>
+    <p>Overzicht van Uw shoppingcart:</p>
+    <form action="mailto: webshop@xxlcomputers.nl"
+    enctype="text/plain"
+    onsubmit="return checkForm(this);"
+    method="POST">
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Merk</th>
+            <th>Model</th>
+            <th>Geheugen</th>
+            <th>Prijs</th>
+            <th>Aantal</th>
+            <th>Bedrag</th>
+            <th>Del</th>
+        </tr>
+        <script>
+            cartWeergeven();
+        </script>
+    </table>
+    <br>
+    <input type="text" id="voornaam" size="30" placeholder="Klant naam:" required>
+    <br><br>
+    <input type="text" id="achternaam" size="30" placeholder="Achternaam:" required>
+    <br><br>
+    <input type="text" id="straat" size="30" placeholder="Straat:" required>
+    <br><br>
+    <input type="text" id="nummer" size="30" placeholder="Nummer:" required>
+    <br><br>
+    <input type="text" id="postcode" size="30" placeholder="Postcode" required>
+    <br><br>
+    <input type="text" id="plaats" size="30" placeholder="Plaats:" required>
+    <br><br>
+    <input type="text" id="e-mail" size="30" placeholder="E-mail" required>
+    <br><br>
+    <a href="xxlcomputers.html"><< Terug</a>
+    <br>
+    <a href="xxlcomputers.html" onclick="verwijderAlleCookies();">Leeg maken</a>
+    <br>
+    <input type="button" id="checkout" value="Check out">
+    </form>
+</body>
+</html>

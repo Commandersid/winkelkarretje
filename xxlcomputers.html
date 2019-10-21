@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xxlcomputers</title>
+    <script src="shoppingcart.js"></script>
+    <script src="cookiefuncties.js"></script>
+</head>
+<body>
+    <img src="images/toshiba.jpg" alt=" " height="250px" width="250px">
+    <p>Toshiba Satellite A100 Prijs 999.99</p>
+    <form name="orderform"
+        action="managecart.html"
+        method="GET"
+        onsubmit="bestellen(this);">
+        Aantal:
+        <input type="text" size="2" id="aantal" value=1>
+        <input type="image" src="images/cart.jpg" height="50px" width="50px">
+        <input type="hidden" id="id" value="1">
+        <input type="hidden" id="merk" value="Toshiba">
+        <input type="hidden" id="model" value="Satellite">
+        <input type="hidden" id="prijs" value=999.99>
+        <input type="hidden" id="geheugen" value="80 GB">
+        <input type="hidden" id="verwijderen" value="1">
+    </form>
+    <hr>
+    <img src="images/acer.jpg" height="250px" width="250px">
+    <p>Acer Aspire 3072 MB - 160 GB Prijs 529.00</p>
+    <form name="orderform"
+        action="managecart.html"
+        method="GET"
+        onsubmit="bestellen(this);">
+        <input type="text" size="2" id="aantal" value=1>
+        <input type="image" src="images/cart.jpg" height="50px" width="50px">
+        <input type="hidden" id="id" value="2">
+        <input type="hidden" id="merk" value="Acer">
+        <input type="hidden" id="model" value="Aspire">
+        <input type="hidden" id="prijs" value=529.99>
+        <input type="hidden" id="geheugen" value="160 GB">
+        <input type="hidden" id="verwijderen" value="2">
+    </form>
+    <hr>
+    <img src="images/macbook.jpg" height="250px" width="250px">
+    <p>Apple macbook pro 15 "touchbar" - 512 GB Prijs 3.095 </p>
+    <form name="orderform"
+        action="managecart.html"
+        method="GET"
+        onsubmit="bestellen(this);">
+        <input type="text" size="2" id="aantal" value=1>
+        <input type="image" src="images/cart.jpg" height="50px" width="50px">
+        <input type="hidden" id="id" value="3">
+        <input type="hidden" id="merk" value="Apple">
+        <input type="hidden" id="model" value="Mackbook pro 15">
+        <input type="hidden" id="prijs" value=3.095>
+        <input type="hidden" id="geheugen" value="512 GB">
+        <input type="hidden" id="verwijderen" value="3">
+    </form>
+    <hr>
+    <img src="images/surface.jpg" height="250px" width="250px">
+    <p>Microsoft surface 2 I5/8/128 platinum - 128 GB Prijs 1.149</p>
+    <form name="orderform"
+        action="managecart.html"
+        method="GET"
+        onsubmit="bestellen(this);">
+        <input type="text" size="2" id="aantal" value=1>
+        <input type="image" src="images/cart.jpg" height="50px" width="50px">
+        <input type="hidden" id="id" value="4">
+        <input type="hidden" id="merk" value="Microsoft">
+        <input type="hidden" id="model" value="Surface 2 platinum">
+        <input type="hidden" id="prijs" value=1.149>
+        <input type="hidden" id="geheugen" value="128 GB">
+        <input type="hidden" id="verwijderen" value="4">
+    </form>
+    <hr>
+    <img src="images/15-BS160ND.jpg" height="250px" width="250px">
+    <p>HP 15-BS160ND - 128 GB Prijs 379</p>
+    <form name="orderform"
+        action="managecart.html"
+        method="GET"
+        onsubmit="bestellen(this);">
+        <input type="text" size="2" id="aantal" value=1>
+        <input type="image" src="images/cart.jpg" height="50px" width="50px">
+        <input type="hidden" id="id" value="5">
+        <input type="hidden" id="merk" value="HP">
+        <input type="hidden" id="model" value="15-BS160ND">
+        <input type="hidden" id="prijs" value=379>
+        <input type="hidden" id="geheugen" value="128 GB">
+        <input type="hidden" id="verwijderen" value="5">
+    </form>
+    <a href="uitloggen.html">uitloggen</a>
+</body>
+</html>
